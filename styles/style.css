@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: o;
+	font-family: sans-serif;
+	background: #f9f9f9;
+}
+
+.container{
+	background: #287a79;
+	margin: 0;
+}
+.navigation {
+	display: flex;
+	flex-direction: row;
+}
+
+.fa-home {
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 0;
+	color: #dedede;
+}
+
+.nav-bar {
+	margin-left: 5%;
+	color: #ddd;
+}
+
+.nav-bar:hover {
+	color: #cca300;
+}
+
+.img {
+	width: 100%;
+	border: 2px groove #dedede;
+	border-left: 0;
+	background-size: cover;
+}
+
+.img-text {
+	position: relative;
+	width: 100%;
+}
+
+div > h1 {
+	position: absolute;
+	line-height: 50px;
+	top: 70px;
+	width: 100%;
+	font-size: 75px;
+	text-align: center;
+	color: #6d6057;
+	font-weight: 100;
+	animation: pop-up 0.5s 1s linear;
+}
+
+div > h4 {
+	position: absolute;
+	top: 140px;
+	width: 100%;
+	font-size: 55px;
+	text-align: center;
+	color: #6d6057 ;
+	font-weight: 100;
+	animation: pop-up2 0.5s 1s linear;
+}
+
+@keyframes pop-up {
+	0%	{ top: -175px }
+	70%	{ top: 100px }
+	100%{ top: 70px }
+}
+
+@keyframes pop-up2 {
+	0%	{ top: -195px }
+	70%	{ top: 170px }
+	100%{ top: 140px }
+}
+
+.header {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 0px;
+}
+
+.details p {
+	max-width: 1000px;
+	padding-left: 150px;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 24px;	
+}
+
+.skills {
+	display: flex;
+	flex-direction: row;
+	padding-top: 50px;
+}
+
+.skills div {
+	padding: 70px;
+}
+
+.skills div:hover {
+	background: #e6e6e6;
+}
+
+.skills div h3 {
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.skills div h3:hover {
+	color: #1a75ff;
+}
+
+.icons div {
+	margin: 10px;
+	padding: 10px;
+	padding-left: 20px;
+	display: flex;
+}
+
+.icons div a i span {
+	padding-left: 40px;
+	font-size: 28px; 
+	color: black;
+	font-family: Dosis
+}

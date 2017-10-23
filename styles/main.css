@@ -1,0 +1,21 @@
+body {
+	background: url(../images/bg.jpg) no-repeat;
+}
+
+body h2 {
+	text-align: center;
+	padding-top: 1em;
+	font-family: 'Lobster', cursive;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	color: #a0a0a0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 40%;
+}
+
+.wrapper form:first-Child {
+	padding-top: 6%;
+}
