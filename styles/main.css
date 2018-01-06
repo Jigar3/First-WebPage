@@ -1,6 +1,8 @@
 body {
 	background: url(../images/bg.jpg) no-repeat;
-	background-size: 1940px 940px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
 }
 
 body h2 {
